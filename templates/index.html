@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Vocabulary Detection with YOLOv8</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Open Vocabulary Detection with YOLOv8</h1>
+        <form id="classForm">
+            <label for="classes">검지할 객체를 입력하세요(예: person, tv, book, etc.):</label>
+            <input type="text" id="classes" name="desired_class" value="{{ ', '.join(current_classes) }}">
+            <button type="submit">제출</button>
+        </form>
+        <div class="video-container">
+            <img src="{{ url_for('video_feed') }}" class="video-feed">
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('#classForm').on('submit', function(event){
+                event.preventDefault();
+                $.ajax({
+                    url: "{{ url_for('update_classes') }}",
+                    type: 'POST',
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        console.log('Classes updated:', response.classes);
+                    },
+                    error: function(error) {
+                        console.log('Error updating classes:', error);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

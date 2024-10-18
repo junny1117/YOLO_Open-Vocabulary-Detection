@@ -4,7 +4,7 @@ YOLO를 활용한 객체 검지 웹사이트
 
 ## 주요 기능
 
-- 80여개의 사전 학습된 객체 목록([참고](objectlist.txt)) 중 사용자가 입력한 객체 검지
+- 80개의 사전 학습된 객체 목록([참고](objectlist.txt)) 중 사용자가 입력한 객체 검지
 - 웹 기반 인터페이스로 편리한 사용 가능
 
 ## 사용도구/기술
@@ -26,6 +26,7 @@ YOLO를 활용한 객체 검지 웹사이트
 4. 브라우저에서 `127.0.0.1:5000`으로 접속
 
 ## 실행 결과 이미지
-![스크린샷 2024-10-18 094658](https://github.com/user-attachments/assets/a42f07a7-6362-4b99-be35-c30ab2d4024a)
-![스크린샷 2024-10-18 095422](https://github.com/user-attachments/assets/d5e166f1-12a0-4ef3-a3ad-933535ca6675)
+![image](https://github.com/user-attachments/assets/20670f87-f84f-425c-9f9f-2307dc8033e8)
+
+
 

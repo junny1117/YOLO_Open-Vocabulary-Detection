@@ -21,6 +21,7 @@ YOLO를 활용한 객체 검지 웹사이트
 ### index.html - 메인 페이지 템플릿
 ### events.html - 결과 조회 페이지 템플릿
 ### requirements.txt - 실행에 필요한 패키지 목록
+### yolov8s-worldv2.pt - YOLOv8 World 객체 검지 모델
 
 ## 실행 방법
 1. 프로젝트 클론: `git clone https://github.com/junny1117/Warehouse-System-with-YOLO`

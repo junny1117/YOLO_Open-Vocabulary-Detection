@@ -11,8 +11,8 @@
     <div class="container">
         <h1>Open Vocabulary Detection with YOLOv8</h1>
         <form id="classForm">
-            <label for="classes">검지할 객체를 입력하세요(예: person, tv, book, etc.):</label>
-            <input type="text" id="classes" name="desired_class" value="{{ ', '.join(current_classes) }}">
+            <label for="classes">검지할 객체를 입력하세요:</label>
+            <input type="text" id="classes" name="desired_class" placeholder="cup, clock, laptop" value="{{ ', '.join(current_classes) }}">
             <button type="submit">제출</button>
         </form>
         <div class="video-container">

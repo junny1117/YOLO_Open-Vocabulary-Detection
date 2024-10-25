@@ -30,7 +30,8 @@ YOLO를 활용한 객체 검지 웹사이트
 4. 브라우저에서 `127.0.0.1:5000`으로 접속
 
 ## 실행 결과 이미지
-![image](https://github.com/user-attachments/assets/20670f87-f84f-425c-9f9f-2307dc8033e8)
+![image](https://github.com/user-attachments/assets/542e844e-81cd-4300-b5b0-4370955f3c71)
+
 
 
 

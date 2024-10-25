@@ -24,7 +24,7 @@ YOLO를 활용한 객체 검지 웹사이트
 ### yolov8s-worldv2.pt - YOLOv8 World 객체 검지 모델
 
 ## 실행 방법
-1. 프로젝트 클론: `git clone https://github.com/junny1117/Warehouse-System-with-YOLO`
+1. 프로젝트 클론: `git clone https://github.com/junny1117/Open-Vocabulary-Detection`
 2. 필요한 패키지 설치: `pip install -r requirements.txt`
 3. Flask 서버 실행: `flask run`
 4. 브라우저에서 `127.0.0.1:5000`으로 접속
